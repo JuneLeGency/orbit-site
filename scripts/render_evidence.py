@@ -34,5 +34,7 @@ for lang,html in [('zh',base),('en',''.join(p.out))]:
  html=html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">','<meta name="viewport" content="width=device-width,initial-scale=1"><script src="assets/locale.js"></script>')
  html=html.replace('</head>','<link rel="stylesheet" href="assets/refresh.css"><link rel="alternate" hreflang="zh-CN" href="evidence.html?lang=zh"><link rel="alternate" hreflang="en" href="evidence.en.html?lang=en"></head>')
  html=html.replace('<nav>','<nav>'+controls)
+ for asset in ('style.css','refresh.css','locale.js'):
+  html=html.replace('"assets/'+asset+'"','"assets/'+asset+'?v=20261031-tablet"')
  (root/('evidence.html' if lang=='zh' else 'evidence.en.html')).write_text(html)
 print('Rendered both evidence pages')
