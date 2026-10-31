@@ -35,6 +35,6 @@ for lang,html in [('zh',base),('en',''.join(p.out))]:
  html=html.replace('</head>','<link rel="stylesheet" href="assets/refresh.css"><link rel="alternate" hreflang="zh-CN" href="evidence.html?lang=zh"><link rel="alternate" hreflang="en" href="evidence.en.html?lang=en"></head>')
  html=html.replace('<nav>','<nav>'+controls)
  for asset in ('style.css','refresh.css','locale.js'):
-  html=html.replace('"assets/'+asset+'"','"assets/'+asset+'?v=20261031-tablet"')
+  html=html.replace('"assets/'+asset+'"','"assets/'+asset+'?v=20261031-compat"')
  (root/('evidence.html' if lang=='zh' else 'evidence.en.html')).write_text(html)
 print('Rendered both evidence pages')

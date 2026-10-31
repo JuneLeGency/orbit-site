@@ -39,3 +39,11 @@ miioflee@gmail.com
 ## Actual recordings
 
 Three clips and GIFs were added on 2026-10-31: Weibo small-window control, Weibo search/summary, and YouTube guest search. Clips use 2–3× speed and omit waiting/retries. The Weibo summary includes a prompted correction of possible sarcasm misclassification. See evidence.html#recordings for scope. Videos have user-initiated controls; GIFs open only on request. Original footage and edit receipts remain in the Android project local archive.
+
+## Compatibility catalog
+
+`python3 scripts/compatibility.py` builds the Chinese/English full reports. The homepage imports its four-dimension overview and icon teaser. `data/apps.json` holds 178 fixed-corpus entries and separate phone r44/tablet r51 historical observations; later targeted notes never rewrite batch counts. All 335 original record hashes and classifications were checked. `data/native-checks.json` contains only sanitized IDs, titles, categories and verdicts from the fixed 2026-10-29 de35/Probe 1a078569 run.
+
+Native-related counts use explicit ID prefixes: SYSCALL, NATIVE, LIBC, LINKER, XVIEW. The 48-check subset has 31 passes and is not a count of independent features. Full baseline: 58 PASS, 9 FAIL, 7 INCONCLUSIVE, 2 NOT_SUPPORTED, 1 INFO. Specialized historical suites stay separate. Icons are original APK resources extracted from the archived report; their provenance kinds are retained.
+
+The public export excludes raw logs, serial numbers, runtime addresses, private paths and account data. Source receipts are retained in the Android project's `.local/website-showcase/compatibility-refresh/`. Do not upload the original private report wholesale.

@@ -22,7 +22,8 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir _site
-          cp index.html index.en.html evidence.html evidence.en.html .nojekyll _site/
+          cp index.html index.en.html evidence.html evidence.en.html compatibility.html compatibility.en.html .nojekyll _site/
+          cp -R data _site/data
           cp -R assets _site/assets
       - uses: actions/upload-pages-artifact@v3
         with:

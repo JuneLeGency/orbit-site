@@ -1,5 +1,6 @@
 from pathlib import Path
 from html import escape
+from compatibility import teaser, compatibility
 p=Path(__file__).resolve().parents[1]
 lang='zh'
 def t(zh,en):return zh if lang=='zh' else en
@@ -53,7 +54,14 @@ def home():
  tablet+=f'</div><p class="matrix-note">{t("本轮使用标准桌面。锤子桌面横屏和原生全屏接管仍有已知问题；截图中的安装状态也不代表全部应用业务通过。","This run used the standard desktop. Smartisan landscape and native full-screen takeover still have known issues. Installed apps in the screenshots are not proof of complete business-flow compatibility.")} <a href="{evidence}#tablet">{t("查看本轮范围","See this run’s scope")} ↗</a></p></section>'
  s=s.replace('<section class="section agent-section"',tablet+'<section class="section agent-section"')
  for asset in ("style.css","refresh.css","locale.js","app.js","gallery.js"):
-  s=s.replace('"assets/'+asset+'"','"assets/'+asset+'?v=20261031-tablet"')
+  s=s.replace('"assets/'+asset+'"','"assets/'+asset+'?v=20261031-compat"')
+ start=s.index('<section class="app-showcase">')
+ end=s.index('<section class="section screenshot-section"',start)
+ s=s[:start]+teaser(lang)+s[end:]
+ start=s.index('<section class="section compat-section"')
+ end=s.index('<section class="section product-gallery"',start)
+ s=s[:start]+compatibility(lang)+s[end:]
+ s=s.replace('</head>','<link rel="stylesheet" href="assets/compatibility.css?v=20261031-compat"></head>')
  return s
 for lang in ('zh','en'):(p/('index.html' if lang=='zh' else 'index.en.html')).write_text(home())
 print('Rendered Chinese and English homepages')

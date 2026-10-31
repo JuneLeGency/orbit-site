@@ -1,0 +1,3598 @@
+{
+  "scope": "Historical clone-project startup observations, not current release or full business acceptance",
+  "stats": {
+    "corpus": 178,
+    "recordedApps": 172,
+    "anyStable": 161,
+    "bothStable": 138,
+    "phone": {
+      "INCONCLUSIVE": 23,
+      "STARTUP_WINDOW_STABLE": 143,
+      "OBSERVED_UNSTABLE": 3,
+      "NOT_SUPPORTED": 2
+    },
+    "tablet": {
+      "STARTUP_WINDOW_STABLE": 156,
+      "NOT_SUPPORTED": 2,
+      "INCONCLUSIVE": 5,
+      "OBSERVED_UNSTABLE": 1
+    },
+    "sourceRecordsVerified": 335
+  },
+  "apps": [
+    {
+      "package": "com.tencent.mm",
+      "name": "微信",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "8.0.78",
+      "icon": "assets/icons/com.tencent.mm.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "8.0.78"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "8.0.78"
+        }
+      },
+      "alias": "WeChat",
+      "laterNote": "2026-10-13 后续专项：微信8.0.78在小米12/API35的修复候选进入登录/注册页；未登录。旧矩阵保持原值，不计入上方历史统计。",
+      "laterNoteEn": "Later targeted test, 2026-10-13: WeChat 8.0.78 reached the sign-in/registration page on a fixed Xiaomi 12 / API 35 candidate. No sign-in was performed. Original matrix values and counts are retained."
+    },
+    {
+      "package": "com.ss.android.ugc.aweme",
+      "name": "抖音",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "39.0.0",
+      "icon": "assets/icons/com.ss.android.ugc.aweme.svg",
+      "iconKind": "adaptive-vector-derived",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "39.0.0"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "39.0.0"
+        }
+      },
+      "alias": "Douyin"
+    },
+    {
+      "package": "com.jingdong.app.mall",
+      "name": "京东",
+      "category": "时尚购物",
+      "categoryEn": "Shopping",
+      "version": "16.0.50",
+      "icon": "assets/icons/com.jingdong.app.mall.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "16.0.50"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "16.0.50"
+        }
+      },
+      "alias": "JD"
+    },
+    {
+      "package": "com.eg.android.AlipayGphone",
+      "name": "支付宝",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "12.12.26.8100",
+      "icon": "assets/icons/com.eg.android.AlipayGphone.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "12.12.26.8100"
+        },
+        "tablet": {
+          "status": "INCONCLUSIVE",
+          "version": "12.12.26.8100"
+        }
+      },
+      "alias": "Alipay",
+      "laterNote": "2026-10-13 后续专项：API36平板特定候选有启动页正例；登录、支付未验，不覆盖此处旧批次。",
+      "laterNoteEn": "Later targeted test, 2026-10-13: a specific API 36 tablet candidate has a startup-page result. Sign-in and payment were not tested; the old batch is not overwritten."
+    },
+    {
+      "package": "com.xingin.xhs",
+      "name": "小红书",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "9.40.1",
+      "icon": "assets/icons/com.xingin.xhs.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "9.40.1"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "9.40.1"
+        }
+      },
+      "alias": "Xiaohongshu"
+    },
+    {
+      "package": "cn.wps.moffice_eng",
+      "name": "WPS Office",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "26.9.0",
+      "icon": "assets/icons/cn.wps.moffice_eng.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "26.9.0"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "26.9.0"
+        }
+      },
+      "alias": "WPS Office"
+    },
+    {
+      "package": "com.baidu.searchbox",
+      "name": "百度",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "15.76.0.10",
+      "icon": "assets/icons/com.baidu.searchbox.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "15.76.0.10"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.76.0.10"
+        }
+      },
+      "alias": "Baidu"
+    },
+    {
+      "package": "com.gotokeep.keep",
+      "name": "Keep",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "9.1.50",
+      "icon": "assets/icons/com.gotokeep.keep.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.1.50"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.1.50"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.dragon.read",
+      "name": "番茄免费小说",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "7.3.9.32",
+      "icon": "assets/icons/com.dragon.read.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.3.9.32"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.3.9.32"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.Qunar",
+      "name": "去哪儿旅行",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "10.4.23",
+      "icon": "assets/icons/com.Qunar.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.4.23"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.4.23"
+        }
+      },
+      "alias": "Qunar"
+    },
+    {
+      "package": "com.douban.frodo",
+      "name": "豆瓣",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "7.134.0",
+      "icon": "assets/icons/com.douban.frodo.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "7.134.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.134.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.chinamworld.main",
+      "name": "中国建设银行",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "9.7.0",
+      "icon": "assets/icons/com.chinamworld.main.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.7.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.7.0"
+        }
+      },
+      "alias": "China Construction Bank"
+    },
+    {
+      "package": "com.android.bankabc",
+      "name": "中国农业银行",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "11.2.0",
+      "icon": "assets/icons/com.android.bankabc.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "11.2.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.2.0"
+        }
+      },
+      "alias": "Agricultural Bank of China"
+    },
+    {
+      "package": "com.icbc",
+      "name": "中国工商银行",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "11.1.0.8.0",
+      "icon": "assets/icons/com.icbc.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "11.1.0.8.0"
+        },
+        "tablet": {
+          "status": "INCONCLUSIVE",
+          "version": "11.1.0.8.0"
+        }
+      },
+      "alias": "ICBC",
+      "laterNote": "2026-10-15 后续专项：11.1.0.8.0在小米12/d384按推荐原生一致性策略进入协议页；不是银行业务通过。",
+      "laterNoteEn": "Later targeted test, 2026-10-15: version 11.1.0.8.0 reached its agreement page on Xiaomi 12 / d384 using the recommended native-consistency policy. Banking flows were not validated."
+    },
+    {
+      "package": "com.cmcc.cmvideo",
+      "name": "咪咕视频",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "6.7.5",
+      "icon": "assets/icons/com.cmcc.cmvideo.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.larus.nova",
+      "name": "豆包",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "14.0.0",
+      "icon": "assets/icons/com.larus.nova.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "14.0.0"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "14.0.0"
+        }
+      },
+      "alias": "Doubao"
+    },
+    {
+      "package": "com.taobao.idlefish",
+      "name": "闲鱼",
+      "category": "时尚购物",
+      "categoryEn": "Shopping",
+      "version": "7.28.40",
+      "icon": "assets/icons/com.taobao.idlefish.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.28.40"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.28.40"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xunmeng.pinduoduo",
+      "name": "拼多多",
+      "category": "时尚购物",
+      "categoryEn": "Shopping",
+      "version": "8.26.0",
+      "icon": "assets/icons/com.xunmeng.pinduoduo.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.26.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.26.0"
+        }
+      },
+      "alias": "Pinduoduo"
+    },
+    {
+      "package": "com.tencent.mtt",
+      "name": "QQ浏览器",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "9.6.1.5215",
+      "icon": "assets/icons/com.tencent.mtt.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NOT_SUPPORTED",
+          "version": "9.6.1.5215"
+        },
+        "tablet": {
+          "status": "NOT_SUPPORTED",
+          "version": "9.6.1.5215"
+        }
+      },
+      "alias": "QQ Browser"
+    },
+    {
+      "package": "com.ss.readpoem",
+      "name": "为你诵读",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "6.1.56",
+      "icon": "assets/icons/com.ss.readpoem.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.1.56"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.1.56"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.tencent.tmgp.sixrooms",
+      "name": "六间房秀场",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "10.3.4.1",
+      "icon": "assets/icons/com.tencent.tmgp.sixrooms.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.3.4.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.3.4.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "tv.danmaku.bili",
+      "name": "哔哩哔哩",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "9.13.0",
+      "icon": "assets/icons/tv.danmaku.bili.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.13.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.13.0"
+        }
+      },
+      "alias": "Bilibili"
+    },
+    {
+      "package": "com.smile.gifmaker",
+      "name": "快手",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "14.8.30.50423",
+      "icon": "assets/icons/com.smile.gifmaker.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "14.8.30.50423"
+        },
+        "tablet": {
+          "status": "INCONCLUSIVE",
+          "version": "14.8.30.50423"
+        }
+      },
+      "alias": "Kuaishou"
+    },
+    {
+      "package": "com.kuaishou.nebula",
+      "name": "快手极速版",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "14.8.20.11879",
+      "icon": "assets/icons/com.kuaishou.nebula.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "14.8.20.11879"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "14.8.20.11879"
+        }
+      },
+      "alias": "Kuaishou Lite"
+    },
+    {
+      "package": "com.ss.android.ugc.aweme.lite",
+      "name": "抖音极速版",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "40.6.0",
+      "icon": "assets/icons/com.ss.android.ugc.aweme.lite.svg",
+      "iconKind": "adaptive-vector-derived",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "40.6.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "40.6.0"
+        }
+      },
+      "alias": "Douyin Lite"
+    },
+    {
+      "package": "com.ss.android.ugc.live",
+      "name": "抖音火山版",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "40.5.0",
+      "icon": "assets/icons/com.ss.android.ugc.live.svg",
+      "iconKind": "adaptive-vector-derived",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "40.5.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "40.5.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sohu.sohuvideo",
+      "name": "搜狐视频",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "10.2.71",
+      "icon": "assets/icons/com.sohu.sohuvideo.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "10.2.71"
+        },
+        "tablet": {
+          "status": "INCONCLUSIVE",
+          "version": "10.2.71"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.luna.music",
+      "name": "汽水音乐",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "21.1.0",
+      "icon": "assets/icons/com.luna.music.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "21.1.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "21.1.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xs.fm.lite",
+      "name": "番茄音乐（原畅听音乐）",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "6.7.1.32",
+      "icon": "assets/icons/com.xs.fm.lite.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.1.32"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.1.32"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.baidu.video",
+      "name": "百搜视频",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "8.15.27",
+      "icon": "assets/icons/com.baidu.video.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.15.27"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.15.27"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.kylin.read",
+      "name": "红果免费漫剧",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "7.3.7.32",
+      "icon": "assets/icons/com.kylin.read.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.3.7.32"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.3.7.32"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.phoenix.read",
+      "name": "红果免费短剧",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "7.2.9.32",
+      "icon": "assets/icons/com.phoenix.read.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.2.9.32"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.2.9.32"
+        }
+      },
+      "alias": "Hongguo"
+    },
+    {
+      "package": "com.funshion.video.mobile",
+      "name": "风行视频",
+      "category": "影音视听",
+      "categoryEn": "Audio & video",
+      "version": "4.7.3.12",
+      "icon": "assets/icons/com.funshion.video.mobile.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.7.3.12"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.7.3.12"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.kidsplus.bobo",
+      "name": "Hi BOBO",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "4.0.7",
+      "icon": "assets/icons/com.kidsplus.bobo.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.0.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.0.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.mampod.ergedd",
+      "name": "儿歌点点",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "4.9.0",
+      "icon": "assets/icons/com.mampod.ergedd.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.rj.syslearning",
+      "name": "同步学",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "7.3.7",
+      "icon": "assets/icons/com.rj.syslearning.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.3.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.3.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sinyee.babybus.world",
+      "name": "宝宝巴士世界",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "10.00.80.77",
+      "icon": "assets/icons/com.sinyee.babybus.world.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "10.00.80.77"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "10.00.80.77"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xiaobanlong.main",
+      "name": "小伴龙",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "10.5.3",
+      "icon": "assets/icons/com.xiaobanlong.main.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.5.3"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.5.3"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.fenbi.android.leo",
+      "name": "小猿AI",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "3.142.2",
+      "icon": "assets/icons/com.fenbi.android.leo.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.142.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.142.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.guliguli.youxiao",
+      "name": "幼升小全课程",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "2.6.7",
+      "icon": "assets/icons/com.guliguli.youxiao.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.6.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.6.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "air.com.gongfubb.wksz",
+      "name": "悟空识字",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "3.16.70",
+      "icon": "assets/icons/air.com.gongfubb.wksz.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "3.16.70"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "3.16.70"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.towords",
+      "name": "拓词",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "15.80",
+      "icon": "assets/icons/com.towords.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "OBSERVED_UNSTABLE",
+          "version": "15.80"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.80"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sieredu.freetiku",
+      "name": "斯尔题库",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "1.13.0",
+      "icon": "assets/icons/com.sieredu.freetiku.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "1.13.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.13.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.putao.KidReading.bookbook",
+      "name": "步步阅读",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "2.6.3",
+      "icon": "assets/icons/com.putao.KidReading.bookbook.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "2.6.3"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "2.6.3"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.lutongnet.brainadventure.plugin",
+      "name": "脑力大冒险",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "4.01.05",
+      "icon": "assets/icons/com.lutongnet.brainadventure.plugin.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.01.05"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.01.05"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.com.langeasy.EasyListen",
+      "name": "轻听英语",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "2.7.18",
+      "icon": "assets/icons/cn.com.langeasy.EasyListen.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.7.18"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.7.18"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xuexue.ai.english.android",
+      "name": "阳阳魔法英语总动员：单词王国",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "4.9.0.330",
+      "icon": "assets/icons/com.xuexue.ai.english.android.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.0.330"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.0.330"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.jkydt.app",
+      "name": "驾考无忧",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "10.0.1",
+      "icon": "assets/icons/com.jkydt.app.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "10.0.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.0.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.mytian.appstore.rz",
+      "name": "麦田认字",
+      "category": "学习教育",
+      "categoryEn": "Education",
+      "version": "3.7.1.250822",
+      "icon": "assets/icons/com.mytian.appstore.rz.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.7.1.250822"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.7.1.250822"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.zszyysc.game",
+      "name": "1号游戏",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "1.0.8",
+      "icon": "assets/icons/com.zszyysc.game.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.haowan.yhzyxzs",
+      "name": "1号游戏助手",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "1.0.0",
+      "icon": "assets/icons/com.haowan.yhzyxzs.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.zhezhesy.games",
+      "name": "折折手游宝",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "2.5.9",
+      "icon": "assets/icons/com.zhezhesy.games.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.5.9"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.5.9"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.chaozh.iReaderFree",
+      "name": "掌阅",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "8.8.1",
+      "icon": "assets/icons/com.chaozh.iReaderFree.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.8.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.8.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.xiaochuankeji.zuiyouLite",
+      "name": "皮皮搞笑",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "2.99.370",
+      "icon": "assets/icons/cn.xiaochuankeji.zuiyouLite.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.99.370"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.99.370"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.tipsoon.android",
+      "name": "简讯",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "5.0.73",
+      "icon": "assets/icons/com.tipsoon.android.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.0.73"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.0.73"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sfacg",
+      "name": "菠萝包轻小说",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "5.2.84",
+      "icon": "assets/icons/com.sfacg.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.2.84"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.2.84"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.faloo.BookReader4Android",
+      "name": "飞卢小说",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "7.4.7",
+      "icon": "assets/icons/com.faloo.BookReader4Android.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.4.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.4.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.fnzh.fnzhapp",
+      "name": "飞鸟租号",
+      "category": "娱乐消遣",
+      "categoryEn": "Entertainment",
+      "version": "3.7.2",
+      "icon": "assets/icons/com.fnzh.fnzhapp.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.7.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.7.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.eastmoney.app.qhsjkh",
+      "name": "东方财富期货",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "7.0.1",
+      "icon": "assets/icons/com.eastmoney.app.qhsjkh.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.0.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.0.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.bankcomm.Bankcomm",
+      "name": "交通银行",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "10.5.0",
+      "icon": "assets/icons/com.bankcomm.Bankcomm.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "OBSERVED_UNSTABLE",
+          "version": "10.5.0"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "10.5.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.cib.cibmb",
+      "name": "兴业银行",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "8.0.4",
+      "icon": "assets/icons/com.cib.cibmb.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.0.4"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.0.4"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "net.ffrj.pinkwallet",
+      "name": "可萌记账",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "5.60",
+      "icon": "assets/icons/net.ffrj.pinkwallet.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.60"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.60"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.golday.miqi",
+      "name": "富盈智投",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "4.7.0",
+      "icon": "assets/icons/com.golday.miqi.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "4.7.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.7.0"
+        }
+      },
+      "alias": "",
+      "laterNote": "后续反例：2026-10-15小米12/d384三次启动一过两退，关闭原生一致性仍可失败。平板旧批稳定不能外推全部设备。",
+      "laterNoteEn": "Later counterexample: on 2026-10-15, Xiaomi 12 / d384 had one successful start and two exits; native-consistency OFF still failed. The old tablet result does not apply to every device."
+    },
+    {
+      "package": "com.cgbchina.xpt",
+      "name": "广发银行",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "11.7.2",
+      "icon": "assets/icons/com.cgbchina.xpt.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.7.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.7.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.ez08.compass",
+      "name": "指南针股票",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "8.26.11",
+      "icon": "assets/icons/com.ez08.compass.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "8.26.11"
+        },
+        "tablet": {
+          "status": "OBSERVED_UNSTABLE",
+          "version": "8.26.11"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.bestrie.aa",
+      "name": "百事AA记账",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "5.3.2",
+      "icon": "assets/icons/com.bestrie.aa.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.3.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.3.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.lanjinger.choiassociatedpress",
+      "name": "财联社",
+      "category": "金融理财",
+      "categoryEn": "Finance",
+      "version": "8.8.3",
+      "icon": "assets/icons/com.lanjinger.choiassociatedpress.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "8.8.3"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "8.8.3"
+        }
+      },
+      "alias": "",
+      "laterNote": "2026-10-29后续专项：小米12/de35受控崩溃后同Clone重建1/1；不是原始闪退或长期稳定性已解决。",
+      "laterNoteEn": "Later targeted test, 2026-10-29: same-clone reconstruction after a controlled crash passed 1/1 on Xiaomi 12 / de35. This does not resolve the original crashes or establish endurance."
+    },
+    {
+      "package": "com.imoblife.now",
+      "name": "Now冥想",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "5.2.7",
+      "icon": "assets/icons/com.imoblife.now.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.2.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.2.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.dxy.android.aspirin",
+      "name": "丁香医生",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "11.66.0",
+      "icon": "assets/icons/cn.dxy.android.aspirin.svg",
+      "iconKind": "adaptive-vector-derived",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "11.66.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.66.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.medlive.guideline.android",
+      "name": "临床指南",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "9.15.0",
+      "icon": "assets/icons/cn.medlive.guideline.android.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "OBSERVED_UNSTABLE",
+          "version": "9.15.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.15.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.dw.btime",
+      "name": "亲宝宝",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "11.15.5",
+      "icon": "assets/icons/com.dw.btime.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.15.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.15.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "uni.UNI3F3F8C0",
+      "name": "伊雅到家",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "1.1.8",
+      "icon": "assets/icons/uni.UNI3F3F8C0.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.1.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.1.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xinli.yixinli",
+      "name": "壹心理",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "11.0.37",
+      "icon": "assets/icons/com.xinli.yixinli.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.0.37"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.0.37"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.psyone.brainmusic",
+      "name": "小睡眠",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "7.0.7",
+      "icon": "assets/icons/com.psyone.brainmusic.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.0.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.0.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.spa.magic_spa",
+      "name": "月亮到家",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "3.0.5",
+      "icon": "assets/icons/com.spa.magic_spa.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.0.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.0.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.alihealth.llm.assistant",
+      "name": "氢离子",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "1.2.54",
+      "icon": "assets/icons/com.alihealth.llm.assistant.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.2.54"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.2.54"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.yuesheng.taidaowei",
+      "name": "泰到位按摩",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "3.2.20",
+      "icon": "assets/icons/com.yuesheng.taidaowei.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.2.20"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.2.20"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "io.moreless.tide",
+      "name": "潮汐",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "5.6.7",
+      "icon": "assets/icons/io.moreless.tide.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.6.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.6.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.ikang.official",
+      "name": "爱康约体检查报告",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "9.2.0",
+      "icon": "assets/icons/com.ikang.official.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.2.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.2.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.boohee.one",
+      "name": "薄荷健康",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "15.8.2",
+      "icon": "assets/icons/com.boohee.one.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.8.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.8.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.antgroup.aijk.android",
+      "name": "蚂蚁阿福",
+      "category": "医疗健康",
+      "categoryEn": "Health",
+      "version": "1.1.63.8100",
+      "icon": "assets/icons/com.antgroup.aijk.android.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.1.63.8100"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.1.63.8100"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xiachufang",
+      "name": "下厨房",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "8.8.93",
+      "icon": "assets/icons/com.xiachufang.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.8.93"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.8.93"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.etouch.ecalendar",
+      "name": "中华万年历",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "9.9.7",
+      "icon": "assets/icons/cn.etouch.ecalendar.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.9.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.9.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.jingdong.pdj",
+      "name": "京东到家",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "15.10.50",
+      "icon": "assets/icons/com.jingdong.pdj.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.10.50"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.10.50"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.yaya.zone",
+      "name": "叮咚买菜",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "13.11.1",
+      "icon": "assets/icons/com.yaya.zone.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "13.11.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "13.11.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.hll.phone_recycle",
+      "name": "回收宝",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "6.0.5.3",
+      "icon": "assets/icons/com.hll.phone_recycle.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "6.0.5.3"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.0.5.3"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.anjuke.android.app",
+      "name": "安居客",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "17.42.0",
+      "icon": "assets/icons/com.anjuke.android.app.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "17.42.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "17.42.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.realtech.xiaocan",
+      "name": "小蚕惠生活",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "3.20.9",
+      "icon": "assets/icons/com.realtech.xiaocan.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.20.9"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.20.9"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.soufun.app",
+      "name": "房天下",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "9.138",
+      "icon": "assets/icons/com.soufun.app.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.138"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.138"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sankuai.moviepro",
+      "name": "猫眼专业版",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "8.13.1",
+      "icon": "assets/icons/com.sankuai.moviepro.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.13.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.13.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sankuai.meituan",
+      "name": "美团",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "12.66.202",
+      "icon": "assets/icons/com.sankuai.meituan.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "12.66.202"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "12.66.202"
+        }
+      },
+      "alias": "Meituan"
+    },
+    {
+      "package": "com.ziroom.ziroomcustomer",
+      "name": "自如",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "7.21.7",
+      "icon": "assets/icons/com.ziroom.ziroomcustomer.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.21.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.21.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.douguo.recipe",
+      "name": "豆果美食",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "8.2.30.2",
+      "icon": "assets/icons/com.douguo.recipe.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.2.30.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.2.30.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xiangha",
+      "name": "香哈菜谱",
+      "category": "居家生活",
+      "categoryEn": "Lifestyle",
+      "version": "10.3.3",
+      "icon": "assets/icons/com.xiangha.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.3.3"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.3.3"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.youth.news",
+      "name": "中青看点",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "6.4.6",
+      "icon": "assets/icons/cn.youth.news.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "6.4.6"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.4.6"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.ss.android.article.news",
+      "name": "今日头条",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "18.5.0",
+      "icon": "assets/icons/com.ss.android.article.news.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "18.5.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "18.5.0"
+        }
+      },
+      "alias": "Toutiao"
+    },
+    {
+      "package": "com.syey.jinrikk",
+      "name": "今日看看极速版",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "6.3.6",
+      "icon": "assets/icons/com.syey.jinrikk.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "6.3.6"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.3.6"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.funinput.digit",
+      "name": "数字尾巴",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "4.5.14",
+      "icon": "assets/icons/com.funinput.digit.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.5.14"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.5.14"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.vistastory.news",
+      "name": "看天下",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "3.7.4",
+      "icon": "assets/icons/com.vistastory.news.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.7.4"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.7.4"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.touchtv.touchtv",
+      "name": "粤TV",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "6.9.2",
+      "icon": "assets/icons/com.touchtv.touchtv.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.9.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.9.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.huxiu",
+      "name": "虎嗅",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "9.12.2",
+      "icon": "assets/icons/com.huxiu.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.12.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.12.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.faster.dsyd",
+      "name": "袋鼠阅读极速版",
+      "category": "新闻资讯",
+      "categoryEn": "News",
+      "version": "1.7.9",
+      "icon": "assets/icons/com.faster.dsyd.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.7.9"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.7.9"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.auramarker.zine",
+      "name": "Zine 精美图文笔记",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "6.9.6",
+      "icon": "assets/icons/com.auramarker.zine.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.9.6"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.9.6"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.adinnet.financialwaiter",
+      "name": "企盟堡",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "6.0.2",
+      "icon": "assets/icons/com.adinnet.financialwaiter.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.0.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.0.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.daowangtech.park",
+      "name": "华丰租",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "4.2.1",
+      "icon": "assets/icons/com.daowangtech.park.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.2.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.2.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.tianyancha.skyeye",
+      "name": "天眼查",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "16.9.10",
+      "icon": "assets/icons/com.tianyancha.skyeye.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "16.9.10"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "16.9.10"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.pdswp.su.smartcalendar",
+      "name": "智能备忘录",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "4.9.3",
+      "icon": "assets/icons/com.pdswp.su.smartcalendar.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.3"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.3"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "zjdf.zhaogongzuo",
+      "name": "最佳东方",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "6.7.14",
+      "icon": "assets/icons/zjdf.zhaogongzuo.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.14"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.14"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.luyun.diary",
+      "name": "每日记",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "2.5.6",
+      "icon": "assets/icons/com.luyun.diary.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "2.5.6"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "2.5.6"
+        }
+      },
+      "alias": "",
+      "laterNote": "2026-10-15 后续专项：2.5.6在小米12/d384进入用户须知页；本表两批缺记录，不代表没有其他专项证据。",
+      "laterNoteEn": "Later targeted test, 2026-10-15: version 2.5.6 reached its notice page on Xiaomi 12 / d384. Missing records in these two batches do not exclude separate targeted evidence."
+    },
+    {
+      "package": "com.baidu.dumate",
+      "name": "百度搭子",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "1.14.0.10",
+      "icon": "assets/icons/com.baidu.dumate.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.14.0.10"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.14.0.10"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.foxit.mobile.pdf.edit",
+      "name": "福昕PDF编辑器",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "4.8.33091",
+      "icon": "assets/icons/com.foxit.mobile.pdf.edit.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.8.33091"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.8.33091"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.dmooo.resumeone",
+      "name": "简历制作",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "3.4.7",
+      "icon": "assets/icons/com.dmooo.resumeone.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.4.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.4.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.iflytek.translateapp",
+      "name": "讯飞翻译",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "1.0.3681",
+      "icon": "assets/icons/com.iflytek.translateapp.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.3681"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.3681"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "net.cheoo.littleboy",
+      "name": "驿阳指",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "0.90.048",
+      "icon": "assets/icons/net.cheoo.littleboy.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "0.90.048"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "0.90.048"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.android36kr.investment",
+      "name": "鲸准",
+      "category": "效率办公",
+      "categoryEn": "Productivity",
+      "version": "7.8.5",
+      "icon": "assets/icons/com.android36kr.investment.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.8.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.8.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.dz.mfxsqj",
+      "name": "免费小说全集",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "7.22.0",
+      "icon": "assets/icons/com.dz.mfxsqj.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.22.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.22.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sdiread.kt.ktandroid",
+      "name": "十点读书",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "6.15.1",
+      "icon": "assets/icons/com.sdiread.kt.ktandroid.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.15.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.15.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "bubei.tingshu.pro",
+      "name": "懒人听书高级版",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "8.8.03",
+      "icon": "assets/icons/bubei.tingshu.pro.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.8.03"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.8.03"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.hm.hmysct",
+      "name": "河马畅听",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "1.9.2",
+      "icon": "assets/icons/com.hm.hmysct.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.9.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.9.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.chaozh.iReaderFree15",
+      "name": "油梨",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "8.6.9.2",
+      "icon": "assets/icons/com.chaozh.iReaderFree15.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.6.9.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.6.9.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.bikann.mfxssk",
+      "name": "洋葱免费小说",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "2.47.00",
+      "icon": "assets/icons/com.bikann.mfxssk.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.47.00"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.47.00"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.duyao.poisonnovelgirl",
+      "name": "火星女频",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "2.7.7",
+      "icon": "assets/icons/com.duyao.poisonnovelgirl.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.7.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.7.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.duyao.poisonnovel",
+      "name": "火星小说",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "2.7.9",
+      "icon": "assets/icons/com.duyao.poisonnovel.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.7.9"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.7.9"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.cyclotron.in",
+      "name": "点点穿书",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "3.9.9.3",
+      "icon": "assets/icons/com.cyclotron.in.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NO_RECORD",
+          "version": "3.9.9.3"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "3.9.9.3"
+        }
+      },
+      "alias": "",
+      "laterNote": "后续专题仍保留设备相关退出问题，不能从其他应用或设备的通过结果推导本应用稳定。",
+      "laterNoteEn": "Later investigations retain device-dependent exit issues. Other app or device results do not establish stability for this app."
+    },
+    {
+      "package": "com.xs.fm",
+      "name": "番茄畅听",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "6.7.1.32",
+      "icon": "assets/icons/com.xs.fm.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.1.32"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "6.7.1.32"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.qq.ac.android",
+      "name": "腾讯动漫",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "13.0.8",
+      "icon": "assets/icons/com.qq.ac.android.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "13.0.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "13.0.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.qidian.QDReader",
+      "name": "起点读书",
+      "category": "图书阅读",
+      "categoryEn": "Reading",
+      "version": "7.9.476",
+      "icon": "assets/icons/com.qidian.QDReader.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.9.476"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.9.476"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.immomo.momo",
+      "name": "MOMO陌陌",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "9.22.8",
+      "icon": "assets/icons/com.immomo.momo.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.22.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.22.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.tencent.mobileqq",
+      "name": "QQ",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "9.3.70",
+      "icon": "assets/icons/com.tencent.mobileqq.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.3.70"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "9.3.70"
+        }
+      },
+      "alias": "QQ"
+    },
+    {
+      "package": "com.xingjiabi.shengsheng",
+      "name": "他趣",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "8.7.0.1",
+      "icon": "assets/icons/com.xingjiabi.shengsheng.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "8.7.0.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.7.0.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xiaoenai.app",
+      "name": "小恩爱",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "9.6.28",
+      "icon": "assets/icons/com.xiaoenai.app.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.6.28"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.6.28"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.netease.moyi",
+      "name": "心遇",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "2.30.1",
+      "icon": "assets/icons/com.netease.moyi.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "2.30.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.30.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.suanaiyanxishe.loveandroid",
+      "name": "算爱社",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "3.2.2",
+      "icon": "assets/icons/com.suanaiyanxishe.loveandroid.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.2.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.2.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "me.ddkj.cp",
+      "name": "组CP",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "8.46.0",
+      "icon": "assets/icons/me.ddkj.cp.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.46.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.46.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xunlianying.app",
+      "name": "训恋营",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "1.4.5",
+      "icon": "assets/icons/com.xunlianying.app.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.4.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.4.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.immomo.vchat",
+      "name": "赫兹",
+      "category": "聊天社交",
+      "categoryEn": "Social",
+      "version": "4.9.8",
+      "icon": "assets/icons/com.immomo.vchat.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.9.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.yougewang.aiyundong",
+      "name": "优个运动",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "9.9.2",
+      "icon": "assets/icons/com.yougewang.aiyundong.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "9.9.2"
+        },
+        "tablet": {
+          "status": "INCONCLUSIVE",
+          "version": "9.9.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.zhuying.zq",
+      "name": "助赢足球",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "2.1.0",
+      "icon": "assets/icons/com.zhuying.zq.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.run.yoga",
+      "name": "卡鼓点跳舞",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "4.2.37",
+      "icon": "assets/icons/com.run.yoga.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.2.37"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.2.37"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.codoon.gps",
+      "name": "咕咚",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "10.81.0",
+      "icon": "assets/icons/com.codoon.gps.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.81.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.81.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.hnjc.dl",
+      "name": "多锐",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "2.9.118",
+      "icon": "assets/icons/com.hnjc.dl.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.9.118"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.9.118"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "co.runner.app",
+      "name": "悦跑圈",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "5.47.13",
+      "icon": "assets/icons/co.runner.app.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.47.13"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.47.13"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.dailyyoga.cn",
+      "name": "每日瑜伽",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "9.89.1.0",
+      "icon": "assets/icons/com.dailyyoga.cn.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.89.1.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.89.1.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "android.zhibo8",
+      "name": "直播吧",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "7.2.8",
+      "icon": "assets/icons/android.zhibo8.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "7.2.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.2.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.sutitong.jingtu",
+      "name": "竞途体育",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "2.1.0",
+      "icon": "assets/icons/com.sutitong.jingtu.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "im.xingzhe",
+      "name": "行者",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "3.27.6",
+      "icon": "assets/icons/im.xingzhe.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.27.6"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.27.6"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.gszc.yuqiu",
+      "name": "遇球",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "1.0.6",
+      "icon": "assets/icons/com.gszc.yuqiu.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.6"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "1.0.6"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.leisu.sports",
+      "name": "雷速体育",
+      "category": "体育运动",
+      "categoryEn": "Sports & fitness",
+      "version": "11.1.0",
+      "icon": "assets/icons/com.leisu.sports.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.1.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.1.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xiaolachuxing.user",
+      "name": "小拉出行",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "2.4.14",
+      "icon": "assets/icons/com.xiaolachuxing.user.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.4.14"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.4.14"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "ctrip.android.view",
+      "name": "携程旅行",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "8.96.2",
+      "icon": "assets/icons/ctrip.android.view.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.96.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.96.2"
+        }
+      },
+      "alias": "Ctrip"
+    },
+    {
+      "package": "com.china3s.strip",
+      "name": "春秋旅游",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "17.3.2",
+      "icon": "assets/icons/com.china3s.strip.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "17.3.2"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "17.3.2"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.pandavisa",
+      "name": "熊猫签证",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "3.22.5",
+      "icon": "assets/icons/com.pandavisa.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.22.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.22.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.airbnb.android",
+      "name": "爱彼迎",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "26.36.china",
+      "icon": "assets/icons/com.airbnb.android.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "26.36.china"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "26.36.china"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.baidu.carlife",
+      "name": "百度CarLife+",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "8.9.0",
+      "icon": "assets/icons/com.baidu.carlife.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.9.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.9.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.tommy.mjtt_an_pro",
+      "name": "美景听听全球景点讲解语音导游",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "8.0.5",
+      "icon": "assets/icons/com.tommy.mjtt_an_pro.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.0.5"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.0.5"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.tencent.map",
+      "name": "腾讯地图",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "11.6.0",
+      "icon": "assets/icons/com.tencent.map.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.6.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "11.6.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.ygkj.chelaile.standard",
+      "name": "车来了",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "7.6.3",
+      "icon": "assets/icons/com.ygkj.chelaile.standard.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.6.3"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.6.3"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.mxzfly.haluo",
+      "name": "顺风车主",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "5.37.1",
+      "icon": "assets/icons/com.mxzfly.haluo.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.37.1"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.37.1"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.miu360.feidi.passenger",
+      "name": "飞嘀打车",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "3.14.7",
+      "icon": "assets/icons/com.miu360.feidi.passenger.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.14.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.14.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.gtgj.view",
+      "name": "高铁管家",
+      "category": "旅行交通",
+      "categoryEn": "Travel",
+      "version": "8.9.8.4",
+      "icon": "assets/icons/com.gtgj.view.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.9.8.4"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "8.9.8.4"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.UCMobile",
+      "name": "UC浏览器",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "12.5.5.1035",
+      "icon": "assets/icons/com.UCMobile.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "NOT_SUPPORTED",
+          "version": "12.5.5.1035"
+        },
+        "tablet": {
+          "status": "NOT_SUPPORTED",
+          "version": "12.5.5.1035"
+        }
+      },
+      "alias": "UC Browser"
+    },
+    {
+      "package": "com.geekapp.scanner",
+      "name": "万能扫描王",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "5.3.21",
+      "icon": "assets/icons/com.geekapp.scanner.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.3.21"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.3.21"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.ketech.thunderfire",
+      "name": "反诈帮帮团",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "2.0.203",
+      "icon": "assets/icons/com.ketech.thunderfire.png",
+      "iconKind": "adaptive-bitmap-fallback",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.0.203"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.0.203"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.jiaming.qiming",
+      "name": "嘉铭宝宝起名平台",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "5.5.4",
+      "icon": "assets/icons/com.jiaming.qiming.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.5.4"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.5.4"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.quark.browser",
+      "name": "夸克",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "10.18.5.1160",
+      "icon": "assets/icons/com.quark.browser.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "10.18.5.1160"
+        },
+        "tablet": {
+          "status": "NO_RECORD",
+          "version": "10.18.5.1160"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.android.lysq",
+      "name": "录音神器转文字助手",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "2.1.16",
+      "icon": "assets/icons/com.android.lysq.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.16"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.16"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "wei.com.kai.wei.kaikai.wei",
+      "name": "微开微",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "V1.0",
+      "icon": "assets/icons/wei.com.kai.wei.kaikai.wei.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "V1.0"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "V1.0"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.yz.studio.tts",
+      "name": "文字转语音工具",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "2.2.28",
+      "icon": "assets/icons/com.yz.studio.tts.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "2.2.28"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.2.28"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.jeejen.family",
+      "name": "极简桌面",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "3.1.34.20231022",
+      "icon": "assets/icons/com.jeejen.family.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.1.34.20231022"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.1.34.20231022"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "cn.fjnu.edu.paint",
+      "name": "涂鸦画图",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "9.3.4",
+      "icon": "assets/icons/cn.fjnu.edu.paint.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.3.4"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "9.3.4"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.baidu.searchbox.lite",
+      "name": "百度极速版",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "7.20.0.10",
+      "icon": "assets/icons/com.baidu.searchbox.lite.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "7.20.0.10"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "7.20.0.10"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.pzds.pzds",
+      "name": "盼之账号",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "5.3.7",
+      "icon": "assets/icons/com.pzds.pzds.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.3.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "5.3.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.xlzg.sign",
+      "name": "签到家",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "2026.02.15",
+      "icon": "assets/icons/com.xlzg.sign.png",
+      "iconKind": "adaptive-foreground-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2026.02.15"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2026.02.15"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.clipzz.media",
+      "name": "视频剪辑精灵",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "4.2.7",
+      "icon": "assets/icons/com.clipzz.media.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.2.7"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "4.2.7"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.qihakeji.videoparsemusic",
+      "name": "视频音频提取器",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "3.0.6",
+      "icon": "assets/icons/com.qihakeji.videoparsemusic.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.0.6"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "3.0.6"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.iflytek.inputmethod",
+      "name": "讯飞输入法",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "15.0.26",
+      "icon": "assets/icons/com.iflytek.inputmethod.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "INCONCLUSIVE",
+          "version": "15.0.26"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "15.0.26"
+        }
+      },
+      "alias": "iFly Keyboard"
+    },
+    {
+      "package": "com.android.peiyin.mfpyzs",
+      "name": "配音助手",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "2.1.8",
+      "icon": "assets/icons/com.android.peiyin.mfpyzs.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.8"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.1.8"
+        }
+      },
+      "alias": ""
+    },
+    {
+      "package": "com.yz.studio.pysq",
+      "name": "配音神器",
+      "category": "实用工具",
+      "categoryEn": "Utilities",
+      "version": "2.2.41",
+      "icon": "assets/icons/com.yz.studio.pysq.png",
+      "iconKind": "declared-bitmap",
+      "outcomes": {
+        "phone": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.2.41"
+        },
+        "tablet": {
+          "status": "STARTUP_WINDOW_STABLE",
+          "version": "2.2.41"
+        }
+      },
+      "alias": ""
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     try { window.localStorage.setItem(key, language); } catch (_) {}
   }
   const file = url.pathname.split('/').pop();
-  const page = file.startsWith('evidence') ? 'evidence' : 'index';
+  const page = file.startsWith('evidence') ? 'evidence' : file.startsWith('compatibility') ? 'compatibility' : 'index';
   const target = page + (language === 'en' ? '.en' : '') + '.html';
   if ((file || 'index.html') !== target) {
     url.pathname = url.pathname.slice(0, url.pathname.lastIndexOf('/') + 1) + target;
@@ -25,7 +25,7 @@
       const href = link.getAttribute('href');
       if (!href || href.startsWith('#')) return;
       const dest = new URL(href, url);
-      if (dest.origin !== url.origin || !/\/(index|evidence)(\.en)?\.html$/.test(dest.pathname)) return;
+      if (dest.origin !== url.origin || !/\/(index|evidence|compatibility)(\.en)?\.html$/.test(dest.pathname)) return;
       const chosen = link.dataset.language || language;
       dest.searchParams.set('lang', chosen);
       if (link.dataset.language) dest.hash = url.hash;

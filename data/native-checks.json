@@ -1,0 +1,548 @@
+{
+  "date": "2026-10-29",
+  "host": "de35bed9",
+  "device": "Xiaomi 12 Pro / Android 15 / API 35",
+  "probe": "1a078569",
+  "scope": "Clone + syscall compatibility layer + native code consistency enabled",
+  "checks": [
+    {
+      "id": "OBS-NNP-VIEWS",
+      "status": "PASS",
+      "section": "观测边界与安全状态",
+      "title": "当前线程 NNP 的三入口一致性",
+      "nativeRelated": false
+    },
+    {
+      "id": "OBS-SECCOMP-VIEWS",
+      "status": "PASS",
+      "section": "观测边界与安全状态",
+      "title": "当前线程 Seccomp 的三入口一致性",
+      "nativeRelated": false
+    },
+    {
+      "id": "OBS-READ-WINDOW",
+      "status": "PASS",
+      "section": "观测边界与安全状态",
+      "title": "连续读取期间的安全状态稳定性",
+      "nativeRelated": false
+    },
+    {
+      "id": "OBS-SUITE-WINDOW",
+      "status": "PASS",
+      "section": "观测边界与安全状态",
+      "title": "整轮检测期间的安全状态稳定性",
+      "nativeRelated": false
+    },
+    {
+      "id": "OBS-TRACER-CONTEXT",
+      "status": "PASS",
+      "section": "观测边界与安全状态",
+      "title": "观测线程的调试上下文",
+      "nativeRelated": false
+    },
+    {
+      "id": "OBS-BASELINE-SCOPE",
+      "status": "INCONCLUSIVE",
+      "section": "观测边界与安全状态",
+      "title": "观测基线范围",
+      "nativeRelated": false
+    },
+    {
+      "id": "PMS-BACKEND-SHAPE",
+      "status": "INFO",
+      "section": "身份与 Framework",
+      "title": "PackageManager 后端对象形态（兼容观察）",
+      "nativeRelated": false
+    },
+    {
+      "id": "FACTORY-BIND-ORDER",
+      "status": "PASS",
+      "section": "身份与 Framework",
+      "title": "AppComponentFactory 执行时已绑定应用进程身份",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-PACKAGE",
+      "status": "PASS",
+      "section": "身份与 Framework",
+      "title": "应用包身份一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "PMS-SELF",
+      "status": "PASS",
+      "section": "身份与 Framework",
+      "title": "PackageManager 返回逻辑安装记录",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-TARGET-SDK",
+      "status": "PASS",
+      "section": "身份与 Framework",
+      "title": "Context/PMS 的 target SDK 一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-UID",
+      "status": "PASS",
+      "section": "身份与 Framework",
+      "title": "Process UID 与 ApplicationInfo UID 一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "BINDER-UID-PACKAGES",
+      "status": "PASS",
+      "section": "Binder 与系统服务",
+      "title": "UID 反查只暴露逻辑应用身份",
+      "nativeRelated": false
+    },
+    {
+      "id": "BINDER-UID-NAME",
+      "status": "PASS",
+      "section": "Binder 与系统服务",
+      "title": "UID 名称映射保持逻辑身份",
+      "nativeRelated": false
+    },
+    {
+      "id": "AMS-PROCESS",
+      "status": "PASS",
+      "section": "Binder 与系统服务",
+      "title": "AMS 进程记录与应用视图一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-DATA-TREE",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Java 数据目录属于同一逻辑根",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-DATA-LEAK",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Java 数据路径未暴露宿主目录",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-CODE-PATH",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Context/PMS 的 Base APK 路径一致且可读",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-SPLIT-PATHS",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Context/PMS 的 Split APK 元数据一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-PROTECTED-DATA",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Context/PMS 的 CE/DE 数据根一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-CODE-LEAK",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Java 代码路径未暴露宿主制品",
+      "nativeRelated": false
+    },
+    {
+      "id": "CONTRACT-DATA-ALIAS",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "两个 CE 路径入口属于同一文件",
+      "nativeRelated": false
+    },
+    {
+      "id": "CONTRACT-FILE-CROSS-ENTRY",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "libc 创建/raw 重开/FD 链接指向同一文件",
+      "nativeRelated": false
+    },
+    {
+      "id": "CONTRACT-DE-CROSS-ENTRY",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "DE 文件创建/raw 重开/FD 链接一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "SYSCALL-SO-INODE",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "自身 so 的 fstat 与 maps 对象一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-APK-FD",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "APK openat 与 fd symlink 保持逻辑路径",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-APK-EXISTING-FD",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "正常装载链打开的 APK FD 保持逻辑路径",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-APK-FD-ERRORS",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "APK readlink 保留截断、无 NUL 与 errno",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-APK-FD-PATH-BOUNDARY",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "readlink 不把未终止路径前缀投影为成功",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-APK-FD-COST",
+      "status": "INCONCLUSIVE",
+      "section": "文件、FD 与路径",
+      "title": "APK readlink 成本样本",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-APK-INODE",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "APK fstat 与 maps 指向同一对象",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-FD-DIR",
+      "status": "FAIL",
+      "section": "文件、FD 与路径",
+      "title": "FD 目录未泄漏宿主路径",
+      "nativeRelated": true
+    },
+    {
+      "id": "NATIVE-PATH-LEAK",
+      "status": "PASS",
+      "section": "文件、FD 与路径",
+      "title": "Native 路径快照未暴露宿主目录",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-CMDLINE",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "裸 syscall 的 cmdline 与逻辑进程一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-STATUS-UID",
+      "status": "FAIL",
+      "section": "进程与 Procfs",
+      "title": "status UID 与 Java UID 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-STATUS-NAME",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "status Name 与逻辑进程可对应",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-TRACER-PID",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "TracerPid 状态可归因",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-MOUNT-NS-IDENTITY",
+      "status": "NOT_SUPPORTED",
+      "section": "进程与 Procfs",
+      "title": "Mount namespace link 与 inode 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-SELINUX-CONTEXT",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "Process/thread SELinux context 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-SECCOMP-COHERENCE",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "当前线程 PR_GET_SECCOMP 与 status 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PROC-FSTAT",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "Proc open/fstat/newfstatat 指向同一对象",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-INVALID-FD-ISOLATION",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "无效 FD 返回 EBADF 且不破坏后续 maps 打开",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PROC-FD-SEMANTICS",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "Proc FD 的 flags/readlink/seals/dup 语义一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PROC-FD-READONLY",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "Proc shadow 由内核执行只读约束",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PROC-PWRITE-SEMANTICS",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "Proc maps 的 positional-write errno 与真实 procfs 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PROC-FD-ERRORS",
+      "status": "PASS",
+      "section": "进程与 Procfs",
+      "title": "Proc FD 的 lstat/flags/readlink 截断与错误保持内核语义",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PROC-MAPS-COST",
+      "status": "INCONCLUSIVE",
+      "section": "进程与 Procfs",
+      "title": "maps open/read/close 成本样本",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-PARENT",
+      "status": "NOT_SUPPORTED",
+      "section": "进程与 Procfs",
+      "title": "父进程视图未暴露已知宿主标记",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-ENVIRON",
+      "status": "INCONCLUSIVE",
+      "section": "进程与 Procfs",
+      "title": "检查 environ 中的宿主目录或实现标记",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-CGROUP",
+      "status": "FAIL",
+      "section": "进程与 Procfs",
+      "title": "cgroup 未暴露宿主标记",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-MOUNTINFO",
+      "status": "FAIL",
+      "section": "进程与 Procfs",
+      "title": "mountinfo 未暴露宿主私有路径",
+      "nativeRelated": true
+    },
+    {
+      "id": "JAVA-SHARED-LIBRARIES",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "Context/PMS 的 sharedLibraryFiles 一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-NATIVE-LIBRARY-PATH",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "Context/PMS 的主 Native 库目录一致且可读",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-CLASSLOADER",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "ClassLoader 未暴露宿主实现标记",
+      "nativeRelated": false
+    },
+    {
+      "id": "JAVA-THREAD-STACK",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "Java 线程与栈帧未暴露宿主实现",
+      "nativeRelated": false
+    },
+    {
+      "id": "LIBC-TEXT-INTEGRITY",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "libc 文件与内存代码一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "NATIVE-TARGET-SDK",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "NDK application target SDK 与 ApplicationInfo 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "NATIVE-NAMESPACE-DEPENDENCY",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "主 so 的 DT_NEEDED 依赖可由 namespace 正常解析",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-MAPS-FORMAT",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "maps 可完整流式解析",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-MAPS-LEAK",
+      "status": "FAIL",
+      "section": "ART、Linker 与 Maps",
+      "title": "maps 未暴露已知宿主承载标记",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-ART-CODE",
+      "status": "FAIL",
+      "section": "ART、Linker 与 Maps",
+      "title": "ART 与代码映射未暴露宿主制品",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-SYSTEM-RUNTIME-WX",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "libc、libdl 与 linker 文件映射遵守 W^X",
+      "nativeRelated": true
+    },
+    {
+      "id": "LINKER-MAPS-PATH",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "dladdr 与 maps 的自身代码后备路径一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "LINKER-PATH-LEAK",
+      "status": "PASS",
+      "section": "ART、Linker 与 Maps",
+      "title": "dladdr 与 maps 未暴露宿主 so 路径",
+      "nativeRelated": true
+    },
+    {
+      "id": "LINKER-PHDR-LEAK",
+      "status": "FAIL",
+      "section": "ART、Linker 与 Maps",
+      "title": "dl_iterate_phdr 未暴露宿主加载制品",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-MAP-FILES",
+      "status": "FAIL",
+      "section": "ART、Linker 与 Maps",
+      "title": "map_files 未泄漏宿主映射目标",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-SMAPS",
+      "status": "FAIL",
+      "section": "ART、Linker 与 Maps",
+      "title": "smaps 未暴露宿主映射路径",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-MPROTECT-MAPS",
+      "status": "INCONCLUSIVE",
+      "section": "ART、Linker 与 Maps",
+      "title": "检查 mprotect 后 maps 的权限分段",
+      "nativeRelated": true
+    },
+    {
+      "id": "DEVICE-PROPERTIES",
+      "status": "PASS",
+      "section": "CPU、ABI 与页大小",
+      "title": "Build 与 Native property 设备身份一致",
+      "nativeRelated": false
+    },
+    {
+      "id": "SYSCALL-PAGE-SIZE",
+      "status": "INCONCLUSIVE",
+      "section": "CPU、ABI 与页大小",
+      "title": "比较 auxv 与 Java 页大小",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-ABI",
+      "status": "PASS",
+      "section": "CPU、ABI 与页大小",
+      "title": "uname 与首选 ABI 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "SYSCALL-CPUINFO",
+      "status": "PASS",
+      "section": "CPU、ABI 与页大小",
+      "title": "cpuinfo 可读且未注入宿主标记",
+      "nativeRelated": true
+    },
+    {
+      "id": "XVIEW-SELF-MAPS-SMAPS",
+      "status": "PASS",
+      "section": "对象跨接口一致性",
+      "title": "自身代码 VMA 在 maps/smaps 中一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "XVIEW-SELF-PHDR",
+      "status": "PASS",
+      "section": "对象跨接口一致性",
+      "title": "自身代码 PHDR、dladdr 与 maps 执行区域一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "XVIEW-SELF-MAP-FILES-LINK",
+      "status": "PASS",
+      "section": "对象跨接口一致性",
+      "title": "自身 map_files 链接路径与 maps 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "XVIEW-SELF-MAP-FILES",
+      "status": "INCONCLUSIVE",
+      "section": "对象跨接口一致性",
+      "title": "自身 map_files 链接及文件身份与 maps 一致",
+      "nativeRelated": true
+    },
+    {
+      "id": "XVIEW-PHDR-EXEC-ENDPOINTS",
+      "status": "PASS",
+      "section": "对象跨接口一致性",
+      "title": "已枚举 ELF 可执行段端点在 maps 中可见",
+      "nativeRelated": true
+    }
+  ]
+}
