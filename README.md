@@ -35,3 +35,7 @@ The public evidence notes preserve historical scope and known limits. TikTok SIM
 ## Contact
 
 miioflee@gmail.com
+
+## Actual recordings
+
+Three clips and GIFs were added on 2026-10-31: Weibo small-window control, Weibo search/summary, and YouTube guest search. Clips use 2–3× speed and omit waiting/retries. The Weibo summary includes a prompted correction of possible sarcasm misclassification. See evidence.html#recordings for scope. Videos have user-initiated controls; GIFs open only on request. Original footage and edit receipts remain in the Android project local archive.
