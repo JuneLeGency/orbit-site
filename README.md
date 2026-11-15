@@ -47,3 +47,7 @@ Three clips and GIFs were added on 2026-10-31: Weibo small-window control, Weibo
 Native-related counts use explicit ID prefixes: SYSCALL, NATIVE, LIBC, LINKER, XVIEW. The 48-check subset has 31 passes and is not a count of independent features. Full baseline: 58 PASS, 9 FAIL, 7 INCONCLUSIVE, 2 NOT_SUPPORTED, 1 INFO. Specialized historical suites stay separate. Icons are original APK resources extracted from the archived report; their provenance kinds are retained.
 
 The public export excludes raw logs, serial numbers, runtime addresses, private paths and account data. Source receipts are retained in the Android project's `.local/website-showcase/compatibility-refresh/`. Do not upload the original private report wholesale.
+
+## User-supplied comparison footage (2026-11-15)
+
+Three continuous, original-speed excerpts are rendered by scripts/comparison.py on both homepages. They show startup returns and an acceleration limitation, not a controlled crash-rate benchmark. One successful CLS launch is retained. Source timestamps and limitations are visible in the section. Audio is removed. Source, cuts and SHA256 manifest are archived locally under the Android project .local/website-showcase/2026-11-15-competitor/.

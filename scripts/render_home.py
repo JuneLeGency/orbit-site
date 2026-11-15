@@ -64,6 +64,9 @@ def home():
  s=s.replace('</head>','<link rel="stylesheet" href="assets/compatibility.css?v=20261031-compat"></head>')
  from scenarios import scenarios
  s=s.replace('<section class="section intro"',scenarios(lang)+'<section class="section intro"')
+ from comparison import comparison
+ s=s.replace('<section class="section compat-section',comparison(lang)+'<section class="section compat-section')
+ s=s.replace('</head>','<link rel="stylesheet" href="assets/comparison.css?v=20261115"></head>')
  return s
 for lang in ('zh','en'):(p/('index.html' if lang=='zh' else 'index.en.html')).write_text(home())
 print('Rendered Chinese and English homepages')
