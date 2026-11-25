@@ -1,0 +1,68 @@
+name: 问题反馈 / Bug report
+description: 报告应用兼容、Agent 或媒体功能问题 / Report an Orbit issue
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请只上传与问题相关的内容，移除账号、密钥和私人信息。提交后内容公开可见。
+        Thanks for reporting. Issues are public; remove account details, keys and private information from attachments.
+        涉及敏感信息请邮件联系 / For sensitive reports: miioflee@gmail.com
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述 / What happened?
+      description: 实际发生了什么？你期望怎样？ / Describe actual and expected behavior.
+    validations:
+      required: true
+  - type: input
+    id: orbit_version
+    attributes:
+      label: Orbit 版本 / Orbit version
+      placeholder: 版本号或安装包日期 / Version or APK date
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 设备与系统 / Device and OS
+      placeholder: 小米 12 Pro / Android 15 / HyperOS version
+    validations:
+      required: true
+  - type: input
+    id: target_app
+    attributes:
+      label: 相关应用与版本 / Affected app and version
+      description: 如涉及第三方应用，请填写名称和版本。 / Include the third-party app version when relevant.
+  - type: dropdown
+    id: area
+    attributes:
+      label: 功能范围 / Area
+      options:
+        - 应用兼容与分身 / App compatibility and clones
+        - 阿洛与 Agent / Alo and agents
+        - 虚拟摄像头 / Virtual camera
+        - 虚拟麦克风与变声 / Virtual microphone and voice
+        - 位置模拟 / Location simulation
+        - 内存工具 / Memory tools
+        - 网络 / Networking
+        - 官网 / Website
+        - 其他 / Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 从哪个页面开始，进行了哪些操作？ / Where did you start, and what did you do?
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图、录屏或日志 / Screenshots, recordings or logs
+      description: 可选；请先移除私人信息。 / Optional; redact private information first.

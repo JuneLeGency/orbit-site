@@ -1,0 +1,22 @@
+name: 功能建议 / Feature request
+description: 告诉我们你希望 Orbit 帮你完成什么 / Suggest an improvement
+title: "[Feature] "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: 使用场景 / Your use case
+      description: 想完成什么？现在有什么不方便？ / What are you trying to do, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的改进 / Suggested improvement
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息 / Additional context
+      description: 可附示意图或相关设备、应用信息；请勿上传私人信息。 / Add examples or relevant app/device details, without private information.

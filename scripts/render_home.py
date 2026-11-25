@@ -70,6 +70,11 @@ def home():
  from media_features import media_features
  s=s.replace('<section class="app-showcase">',media_features(lang)+'<section class="app-showcase">',1)
  s=s.replace('</head>','<link rel="stylesheet" href="assets/media-features.css?v=20261126"></head>')
+ from feedback import feedback
+ s=s.replace('<section class="contact section"',feedback(lang)+'<section class="contact section"')
+ s=s.replace('</head>','<link rel="stylesheet" href="assets/feedback.css?v=20261126"></head>')
+ s=s.replace('<a class="nav-contact" href="mailto:miioflee@gmail.com">'+t('联系合作','Get in touch')+' ↗</a>','<a class="nav-contact" href="#feedback">'+t('问题反馈','Feedback')+'</a>')
+ s=s.replace('<span>© 2026 Orbit</span>','<a href="https://github.com/JuneLeGency/orbit-site/issues">GitHub Issues</a><span>© 2026 Orbit</span>')
  return s
 for lang in ('zh','en'):(p/('index.html' if lang=='zh' else 'index.en.html')).write_text(home())
 print('Rendered Chinese and English homepages')
